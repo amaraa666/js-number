@@ -1,0 +1,2 @@
+let phoneNumber = prompt("Ta utasnii dugaaraa oruulna uu?");
+Number.isInteger(Number(phoneNumber))==true && phoneNumber.length == 12 && phoneNumber.substring(0,4)==+976 ?console.log("Ta mongol ulsin dugaar zuv oruullaa") : console.log("Ta Mongol ulsiin dugaariig buruu oruulsan baina");
